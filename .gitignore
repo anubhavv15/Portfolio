@@ -1,0 +1,31 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+
+
+
+bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 
+
+      As a passionate web developer, I am deeply committed to creating digital solutions that are both functional and user-friendly. My focus is on crafting seamless, intuitive web experiences that allow users to interact effortlessly with the interface. I prioritize designing with the user in mind, ensuring that every project is tailored to meet their needs and expectations. Whether it's building a responsive website or developing a complex web application, my goal is to deliver high-quality, user-driven digital experiences that are smooth, engaging, and easy to navigate....

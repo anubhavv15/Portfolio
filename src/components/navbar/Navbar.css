@@ -1,0 +1,124 @@
+/* Navbar.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0.5rem 1rem; /* ↓ Reduced padding = smaller height */
+  background: linear-gradient(to right, red, purple, black);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  border-radius: 0 0 20px 20px; /* ✅ Curve only the bottom corners */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Optional: soft shadow */
+}
+
+
+.desktopMenu {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: flex-end;
+}
+  
+  .desktopMenuListItem {
+    cursor: pointer;
+    transition: color 0.3s ease;
+    font-weight: 500;
+    text-transform: uppercase;
+    position: relative;
+  }
+  
+  .desktopMenuListItem::after {
+    content: '';
+    height: 2px;
+    background: #58a6ff;
+    width: 0%;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: width 0.3s ease;
+  }
+  
+  .desktopMenuListItem:hover::after,
+  .desktopMenuListItem.active::after {
+    width: 100%;
+  }
+  
+  .desktopMenuBtn {
+    background: rgb(45, 44, 44);/* Matches navbar gradient */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: background 0.3s ease;
+  }
+  
+  .desktopMenuBtn:hover {
+    background: linear-gradient(to right, darkred, indigo); /* Slightly darker on hover */
+  }
+  
+  
+  .desktopMenuImg {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .mobMenu {
+    display: none;
+    width: 30px;
+    cursor: pointer;
+  }
+  
+  .navMenu {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background-color: #161b22;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    width: 200px;
+    box-shadow: -2px 2px 10px rgba(0,0,0,0.3);
+    border-radius: 0 0 0 10px;
+    z-index: 998;
+  }
+  
+  .navMenu .desktopMenuListItem {
+    margin: 10px 0;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .desktopMenu {
+      display: none;
+    }
+  
+    .mobMenu {
+      display: block;
+    }
+  
+    .desktopMenuBtn {
+      display: none;
+    }
+  }
+  
+@media screen and (max-width:720px) {
+    .mobMenu{
+        display: flex;
+    }
+    .desktopMenuBtn{
+        display: none;
+    }
+    .desktopMenu{
+        display: none;
+    }
+    
+}
+

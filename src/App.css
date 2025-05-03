@@ -1,0 +1,14 @@
+
+
+.cv-button {
+  transition: all 0.3s ease-in-out; /* Smooth transition */
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); /* Default rectangular shape */
+}
+
+.cv-button:hover {
+  background-color: #4f46e5; /* Indigo-600 */
+  color: white;
+  /* Sharper right-pointed shape */
+  clip-path: polygon(0 0, 80% 0, 100% 50%, 80% 100%, 0 100%);
+}
+
