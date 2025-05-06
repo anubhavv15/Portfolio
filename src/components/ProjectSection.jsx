@@ -12,23 +12,23 @@ const ProjectsSection = () => {
       description:
         "Created a dynamic and responsive game site clone using HTML, CSS, and JavaScript with modern UI/UX features.",
       tech: ["HTML", "CSS", "JavaScript"],
-      link: "https://github.com/anubhavv15/Games",
+      link: "https://puzzle-ten-phi.vercel.app/",
       thumbnail: gameThumbnail,
     },
     {
       title: "Website UI",
       description:
-        "Built a fully responsive personal portfolio with React and Tailwind showcasing projects and skills.",
+        "A modern UI design website showcasing clean, responsive, and user-centered interfaces, built to enhance usability, aesthetics, and user engagement across web and mobile platforms.",
       tech: ["React", "Tailwind CSS"],
-      link: "https://github.com/anubhavv15/UI-Project",
+      link: "https://ui-project-psi.vercel.app/",
       thumbnail: car,
     },
     {
       title: "E-commerce",
       description:
-        "Built a fully responsive personal portfolio with React and Tailwind showcasing projects and skills.",
-      tech: ["React", "Tailwind CSS"],
-      link: "https://yourportfolio.com",
+        "A user-friendly e-commerce platform for browsing, buying, and managing products online, with secure payments, responsive design, and real-time inventory tracking.",
+      tech: ["React", "Tailwind CSS", "Nodejs"],
+      link: "https://e-shopping-vert.vercel.app/",
       thumbnail: eCommerce,
     },
   ];
@@ -46,7 +46,7 @@ const ProjectsSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          My Projects
+           Projects
         </motion.h2>
 
         <motion.div

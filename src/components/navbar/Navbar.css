@@ -8,6 +8,8 @@
   background: linear-gradient(to right, red, purple, black);
   position: sticky;
   top: 0;
+  color:white;
+  font-weight:bolder;
   z-index: 1000;
   width: 100%;
   border-radius: 0 0 20px 20px; /* ✅ Curve only the bottom corners */
@@ -47,8 +49,8 @@
   }
   
   .desktopMenuBtn {
-    background: rgb(45, 44, 44);/* Matches navbar gradient */
-    color: white;
+    background: white;/* Matches navbar gradient */
+    color: black;
     padding: 10px 20px;
     border: none;
     border-radius: 20px;
@@ -61,7 +63,8 @@
   }
   
   .desktopMenuBtn:hover {
-    background: linear-gradient(to right, darkred, indigo); /* Slightly darker on hover */
+    background: linear-gradient(to right, darkred, indigo);
+    color: white; /* Slightly darker on hover */
   }
   
   
@@ -89,7 +92,9 @@
     border-radius: 0 0 0 10px;
     z-index: 998;
   }
-  
+  .desktopMenuBtnWrapper {
+    margin-left: auto; /* Pushes it to the far right */
+  }
   .navMenu .desktopMenuListItem {
     margin: 10px 0;
   }
@@ -112,9 +117,11 @@
 @media screen and (max-width:720px) {
     .mobMenu{
         display: flex;
+   
     }
     .desktopMenuBtn{
         display: none;
+        
     }
     .desktopMenu{
         display: none;

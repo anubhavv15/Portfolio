@@ -64,7 +64,7 @@ const EducationSlider = () => {
         viewport={{ once: true }}
       >
         <FaGraduationCap className="inline mr-3 text-purple-600 drop-shadow-md" />
-        My Education
+        Education
       </motion.h2>
 
       <div className="w-full max-w-4xl relative z-10">

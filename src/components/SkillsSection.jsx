@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
-import { SiReact, SiJavascript, SiTailwindcss, SiNodedotjs, SiFramer } from "react-icons/si";
-import { FaPaintBrush, FaLaptopCode, FaMobileAlt } from "react-icons/fa"; // Icons for abilities
+import { SiReact, SiJavascript, SiTailwindcss, SiNodedotjs,  } from "react-icons/si";
+import { FaPaintBrush, FaLaptopCode, FaMobileAlt, FaGithub } from "react-icons/fa"; // Icons for abilities
 
 // Skills Data
 const skills = [
@@ -25,9 +25,9 @@ const skills = [
     icon: <SiNodedotjs className="text-green-400 text-3xl" />,
   },
   {
-    name: "Framer Motion",
+    name: "Github",
     level: "Beginner",
-    icon: <SiFramer className="text-pink-400 text-3xl" />,
+    icon: <FaGithub className="text-white-400 text-3xl" />,
   },
 ];
 
@@ -71,7 +71,7 @@ export default function SkillsSection() {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
         >
-          My Skills & Abilities
+          Skills & Abilities
         </motion.h2>
 
         {/* Grid Layout (Swapping Abilities and Skills positions) */}

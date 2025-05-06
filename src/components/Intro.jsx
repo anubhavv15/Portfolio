@@ -26,10 +26,10 @@ const Intro = () => {
           Hi, I'm <span className="text-yellow-300">Anubhav Chaudhary</span>
         </h1>
         <h2 className="text-2xl md:text-3xl font-semibold mb-6">
-          Frontend Developer | Designer | Coder
+          Web Developer | Designer | Coder
         </h2>
         <p className="max-w-md text-lg mb-8">
-          I love building beautiful and functional websites. Passionate about React.js, TailwindCSS, and creating great user experiences.
+        I Create intuitive and dynamic web applications, focusing on user experience and innovative design. Let's bring ideas to life!.
         </p>
         <motion.a
           href="#contact"
