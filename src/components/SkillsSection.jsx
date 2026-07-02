@@ -29,6 +29,11 @@ const skills = [
     level: "Beginner",
     icon: <FaGithub className="text-white-400 text-3xl" />,
   },
+   {
+    name: "Python",
+    level: "Intermediate",
+    icon: <FaGithub className="text-white-400 text-3xl" />,
+  },
 ];
 
 // Abilities Data
