@@ -35,7 +35,7 @@ const IntroSection = () => {
             As a passionate web developer, I am deeply committed to creating digital solutions that are both functional and user-friendly. My focus is on crafting seamless, intuitive web experiences that allow users to interact effortlessly with the interface. I prioritize designing with the user in mind, ensuring that every project is tailored to meet their needs and expectations. Whether it's building a responsive website or developing a complex web application, my goal is to deliver high-quality, user-driven digital experiences that are smooth, engaging, and easy to navigate....
           </p>
           <a
-            href="/anubhav.pdf"
+            href="/Anubhavcv (2).pdf"
             download="Anubhavcv (2).pdf"
             className="cv-button inline-block bg-white text-indigo-600 px-6 py-3 rounded-xl shadow-md transform transition-all duration-300 ease-in-out"
           >
