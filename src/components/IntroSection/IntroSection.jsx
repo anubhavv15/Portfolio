@@ -31,9 +31,13 @@ const IntroSection = () => {
             Let me Introduce <span className="text-transparent bg-clip-text bg-gradient-to-r from-gray-800 via-gray-700 to-gray-900">Myself</span>
           </h1>
 
-          <p className="text-lg text-white mb-6">
-            As a passionate web developer, I am deeply committed to creating digital solutions that are both functional and user-friendly. My focus is on crafting seamless, intuitive web experiences that allow users to interact effortlessly with the interface. I prioritize designing with the user in mind, ensuring that every project is tailored to meet their needs and expectations. Whether it's building a responsive website or developing a complex web application, my goal is to deliver high-quality, user-driven digital experiences that are smooth, engaging, and easy to navigate....
-          </p>
+        <p className="text-lg text-white mb-6">
+  Hi, I'm <span className="font-semibold">Anubhav Chaudhary</span>, an MCA student at SRM Institute of Science and Technology with a passion for Full-Stack Web Development. I specialize in the MERN Stack (MongoDB, Express.js, React.js, and Node.js) and have a strong foundation in Java, Python, and REST API development.
+
+  I enjoy building responsive, user-friendly web applications and solving real-world problems through clean, efficient code. My experience includes developing full-stack projects such as a Car Rental Platform, an E-Commerce Web Application, and a Python-based Stock & News Email Alert System. I have also completed a Frontend Development Internship, where I gained hands-on experience in designing modern and responsive user interfaces.
+
+  I'm continuously expanding my technical skills and looking for opportunities to contribute as a Software Developer or Full-Stack Developer while learning from real-world challenges.
+</p>
           <a
             href="/Anubhav_cv.pdf"
             download="Anubhav_cv.pdf"
