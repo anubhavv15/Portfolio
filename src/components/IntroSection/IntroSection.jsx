@@ -36,7 +36,7 @@ const IntroSection = () => {
           </p>
           <a
             href="/Anubhavcv (2).pdf"
-            download="Anubhavcv (2).pdf"
+            download="Anubhavcv.pdf"
             className="cv-button inline-block bg-white text-indigo-600 px-6 py-3 rounded-xl shadow-md transform transition-all duration-300 ease-in-out"
           >
             📄 Download CV
