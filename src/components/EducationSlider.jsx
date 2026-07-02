@@ -8,7 +8,7 @@ import "slick-carousel/slick/slick-theme.css";
 const educationData = [
    {
     degree: "Master of Computer Application",
-    institution: "IIMT University",
+    institution: "SRM-IST University",
     year: "2025 - 2027",
     details: "Currently pursuing MCA with a focus on Full-Stack Web Development, Java, Python, Data Structures & Algorithms, and Database Management Systems. Actively building MERN stack projects and enhancing problem-solving skills.",
     icon: <FaUniversity className="text-5xl text-purple-600 mb-6 drop-shadow-md" />,
