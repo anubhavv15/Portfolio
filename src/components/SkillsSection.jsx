@@ -1,13 +1,31 @@
 import { motion } from "framer-motion";
-import { SiReact, SiJavascript, SiTailwindcss, SiNodedotjs,  } from "react-icons/si";
+import {
+  SiReact,
+  SiJavascript,
+  SiTailwindcss,
+  SiNodedotjs,
+  SiPython,
+  SiMongodb,
+  SiExpress,
+  SiGit,
+  SiBootstrap,
+  SiHtml5,
+  SiCss3,
+  SiJava,
+} from "react-icons/si";
 import { FaPaintBrush, FaLaptopCode, FaMobileAlt, FaGithub } from "react-icons/fa"; // Icons for abilities
 
 // Skills Data
 const skills = [
   {
-    name: "React",
+    name: "HTML5",
     level: "Advanced",
-    icon: <SiReact className="text-cyan-400 text-3xl" />,
+    icon: <SiHtml5 className="text-orange-500 text-3xl" />,
+  },
+  {
+    name: "CSS3",
+    level: "Advanced",
+    icon: <SiCss3 className="text-blue-500 text-3xl" />,
   },
   {
     name: "JavaScript",
@@ -15,46 +33,71 @@ const skills = [
     icon: <SiJavascript className="text-yellow-400 text-3xl" />,
   },
   {
-    name: "Tailwind CSS",
-    level: "Intermediate",
-    icon: <SiTailwindcss className="text-teal-300 text-3xl" />,
+    name: "React.js",
+    level: "Advanced",
+    icon: <SiReact className="text-cyan-400 text-3xl" />,
   },
   {
     name: "Node.js",
     level: "Intermediate",
-    icon: <SiNodedotjs className="text-green-400 text-3xl" />,
+    icon: <SiNodedotjs className="text-green-500 text-3xl" />,
   },
   {
-    name: "Github",
-    level: "Beginner",
-    icon: <FaGithub className="text-white-400 text-3xl" />,
+    name: "Express.js",
+    level: "Intermediate",
+    icon: <SiExpress className="text-gray-300 text-3xl" />,
   },
-   {
+  {
+    name: "MongoDB",
+    level: "Intermediate",
+    icon: <SiMongodb className="text-green-400 text-3xl" />,
+  },
+  {
     name: "Python",
     level: "Intermediate",
-    icon: <FaGithub className="text-white-400 text-3xl" />,
+    icon: <SiPython className="text-blue-400 text-3xl" />,
+  },
+  {
+    name: "Java",
+    level: "Intermediate",
+    icon: <SiJava className="text-red-500 text-3xl" />,
+  },
+  {
+    name: "Git",
+    level: "Intermediate",
+    icon: <SiGit className="text-orange-500 text-3xl" />,
+  },
+  {
+    name: "GitHub",
+    level: "Intermediate",
+    icon: <FaGithub className="text-white text-3xl" />,
+  },
+  {
+    name: "Bootstrap",
+    level: "Intermediate",
+    icon: <SiBootstrap className="text-purple-500 text-3xl" />,
   },
 ];
 
 // Abilities Data
 const abilities = [
   {
-    title: "PaintBrush",
-    subtitle: "Design + development",
-    desc: "Clean, modern designs - optimized for performance, search engines, and converting users to customers.",
-    icon: <FaPaintBrush className="text-3xl text-yellow-400" />, // Added an icon
+    title: "Full Stack Development",
+    subtitle: "MERN Stack",
+    desc: "Develop responsive full-stack web applications using MongoDB, Express.js, React.js, and Node.js.",
+    icon: <FaLaptopCode className="text-3xl text-blue-500" />,
   },
   {
-    title: "Laptop Code",
-    subtitle: "Technology",
-    desc: "Combined all the latest technologies to a progressive website.",
-    icon: <FaLaptopCode className="text-3xl text-blue-500" />, // Added an icon
+    title: "REST API Integration",
+    subtitle: "Backend Development",
+    desc: "Build and integrate RESTful APIs with secure authentication and database connectivity.",
+    icon: <FaPaintBrush className="text-3xl text-yellow-400" />,
   },
   {
-    title: "Mobile Device",
-    subtitle: "Always Responsive",
-    desc: "A responsive design makes your website accessible to all users, regardless of their device.",
-    icon: <FaMobileAlt className="text-3xl text-green-400" />, // Added an icon
+    title: "Responsive Design",
+    subtitle: "Frontend Development",
+    desc: "Create modern, mobile-friendly user interfaces using React, Tailwind CSS, and Bootstrap.",
+    icon: <FaMobileAlt className="text-3xl text-green-400" />,
   },
 ];
 
